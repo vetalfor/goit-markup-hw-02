@@ -3,21 +3,23 @@
   --main-text-color: #434455;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
+.link {
+  text-decoration: none;
+  list-style: none;
+}
 /* Шапка */
 .logo {
-  font-family: "Raleway";
+  font-family: 'Raleway' sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17em;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -25,8 +27,11 @@ body {
 .main-logo {
   color: #2e2f42;
 }
-.link,
-.link {
-  text-decoration: none;
-  list-style: none;
+.nav-menu {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.menu-feedback {
+  font-style: normal;
+  color: #434455;
 }
