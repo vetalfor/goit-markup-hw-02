@@ -48,7 +48,7 @@ body {
   font-style: normal;
 }
 .feedback {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -72,16 +72,14 @@ body {
   color: #ffffff;
 }
 .main-btn {
-  color: #ffffff;
-  background-color: #4d5ae5;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
 
 .main-btn:hover,
@@ -121,12 +119,17 @@ body {
   color: var(--main-title-color);
 }
 /* Portfolio */
-.btn-menu {
+.btn-menu-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #f4f4fd;
   color: #4d5ae5;
 }
-.btn-menu:hover,
-.btn-menu:focus {
+.btn-menu-item:hover,
+.btn-menu-item:focus {
   background-color: #404bbf;
   color: #ffffff;
   cursor: pointer;
