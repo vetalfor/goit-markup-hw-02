@@ -11,9 +11,10 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
-.link,
-.list {
+.link {
   text-decoration: none;
+}
+.list {
   list-style: none;
 }
 .link-item:hover,
