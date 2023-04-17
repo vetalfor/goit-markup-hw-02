@@ -16,6 +16,10 @@ body {
   text-decoration: none;
   list-style: none;
 }
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
 /* Шапка */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -31,10 +35,14 @@ body {
 }
 .nav-menu {
   font-weight: 500;
+}
+.link-item {
   color: var(--main-title-color);
 }
 .feedback-menu {
   font-style: normal;
+}
+.feedback {
   color: var(--main-text-color);
 }
 /* Index */
