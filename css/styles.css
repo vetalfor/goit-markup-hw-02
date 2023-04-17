@@ -16,8 +16,12 @@ body {
   text-decoration: none;
   list-style: none;
 }
-.link:hover,
-.link:focus {
+.link-item:hover,
+.link-item:focus {
+  color: #404bbf;
+}
+.feedback:hover,
+.feedback:focus {
   color: #404bbf;
 }
 /* Шапка */
