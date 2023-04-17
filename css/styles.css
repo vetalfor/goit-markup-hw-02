@@ -10,13 +10,14 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
-.link {
+.link,
+.list {
   text-decoration: none;
   list-style: none;
 }
 /* Шапка */
 .logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17em;
@@ -33,5 +34,27 @@ body {
 }
 .menu-feedback {
   font-style: normal;
-  color: #434455;
+  color: var(--main-text-color);
+}
+/* Index */
+
+/* Portfolio */
+.btn-menu {
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+}
+.btn-menu:hover,
+.btn-menu:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+/* Footer */
+footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
 }
