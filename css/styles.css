@@ -1,11 +1,32 @@
+:root {
+  --main-background-color: #ffffff;
+  --main-text-color: #434455;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }
+/* Шапка */
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17em;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.main-logo {
+  color: #2e2f42;
+}
+.link,
 .link {
-  list-style: none;
   text-decoration: none;
+  list-style: none;
 }
