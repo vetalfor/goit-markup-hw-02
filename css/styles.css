@@ -1,6 +1,7 @@
 :root {
   --main-background-color: #ffffff;
   --main-text-color: #434455;
+  --main-title-color: #2e2f42;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -26,18 +27,65 @@ body {
   color: #4d5ae5;
 }
 .main-logo {
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
 .nav-menu {
   font-weight: 500;
-  color: #2e2f42;
+  color: var(--main-title-color);
 }
-.menu-feedback {
+.feedback-menu {
   font-style: normal;
   color: var(--main-text-color);
 }
 /* Index */
+.hero {
+  background-color: var(--main-title-color);
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07em;
+  text-align: center;
+  color: #ffffff;
+}
+.main-btn {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
 
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.skill-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: var(--main-title-color);
+}
+.minor-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-title-color);
+}
+.employee-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: var(--main-title-color);
+}
 /* Portfolio */
 .btn-menu {
   background-color: #f4f4fd;
@@ -47,14 +95,21 @@ body {
 .btn-menu:focus {
   background-color: #404bbf;
   color: #ffffff;
+  cursor: pointer;
 }
 /* Footer */
 footer {
-  background-color: #2e2f42;
+  background-color: var(--main-title-color);
 }
 .footer-logo {
   color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
+}
+.examples-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main-title-color);
 }
