@@ -51,14 +51,14 @@ body {
 .main-btn {
   color: #ffffff;
   background-color: #4d5ae5;
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5em;
   display: flex;
   align-items: center;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 
 .main-btn:hover,
@@ -70,6 +70,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2em;
+  letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
 .minor-title {
@@ -80,10 +81,17 @@ body {
   text-transform: capitalize;
   color: var(--main-title-color);
 }
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-list-item {
+  background-color: #ffffff;
+}
 .employee-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2em;
+  letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
 /* Portfolio */
