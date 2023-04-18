@@ -38,6 +38,8 @@ body {
 }
 .nav-menu {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .link-item {
   color: var(--main-title-color);
@@ -91,6 +93,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
+.skill-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .minor-title {
   font-size: 36px;
   line-height: 1.11;
@@ -111,6 +117,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+}
+.job-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Portfolio */
 .btn-menu-item {
