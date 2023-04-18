@@ -6,8 +6,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
@@ -30,7 +28,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17em;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -49,10 +47,8 @@ body {
 }
 .feedback {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -64,19 +60,18 @@ body {
   background-color: var(--main-title-color);
 }
 .main-title {
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
-  line-height: 1.07em;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
 .main-btn {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -92,14 +87,13 @@ body {
 .skill-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2em;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
 .minor-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.11em;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -114,7 +108,7 @@ body {
 .employee-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2em;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
@@ -142,20 +136,24 @@ footer {
   color: #f4f4fd;
 }
 .footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 .examples-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2em;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
 .examples-text-item {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
